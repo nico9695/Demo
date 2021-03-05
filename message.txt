@@ -1,0 +1,26 @@
+{
+    "open": {{open}},
+    "high": {{high}},
+    "low": {{low}},
+    "close": {{close}},
+    "exchange": "{{exchange}}",
+    "ticker": "{{ticker}}",
+    "volume": {{volume}},
+    "time": "{{time}}",
+    "timenow": "{{timenow}}"
+}
+
+alpaca_data = {
+    "symbol": "GBTC",
+    "qty": 1,
+    "side": "buy",
+    "type": "limit",
+    "limit_price": "100",
+    "time_in_force": "gtc",
+    "order_class": "bracket",
+    "take_profit": {
+        "limit_price": "300"
+    },
+    "stop_loss": {
+        "stop_price": "160"
+    }
